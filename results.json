@@ -13,9 +13,9 @@
   },
   "test_eval": {
     "en_on_en": 27.05,
-    "en_on_fr": 56.85,
-    "en_on_tl": 68.94,
-    "en_on_nl": 60.14
+    "en_on_fr": 58.22,
+    "en_on_tl": 69.84,
+    "en_on_nl": 61.05
   },
   "test_generate": {
     "english_2_gram": "I amell1Gige omyo & he't",

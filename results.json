@@ -1,9 +1,27 @@
 {
-  "test_link": {
-    "link": "https://colab.research.google.com/drive/1ZYcYcq_FFCiZe9kCHRVP5VAUKb5mNUID?usp=sharing"
+  "test_link": "NameError(\"name 'NOTEBOOK_LINK' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_88706/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_88706/2957777135.py\", line 6, in test_link\n    'link': NOTEBOOK_LINK\n            ^^^^^^^^^^^^^\nNameError: name 'NOTEBOOK_LINK' is not defined\n",
+  "test_preprocess": {
+    "vocab_length": 1804
   },
-  "test_preprocess": "NameError(\"name 'preprocess' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 49, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 12, in test_preprocess\n    'vocab_length': len(preprocess()),\n                        ^^^^^^^^^^\nNameError: name 'preprocess' is not defined\n",
-  "test_build_lm": "NameError(\"name 'read_lang_file' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 49, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 17, in test_build_lm\n    'english_2_gram_length': len(build_lm('en', 2, True)),\n                                 ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_21456/1407580938.py\", line 12, in build_lm\n    fh = read_lang_file(lang)\n         ^^^^^^^^^^^^^^\nNameError: name 'read_lang_file' is not defined\n",
-  "test_eval": "NameError(\"name 'read_lang_file' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 49, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 24, in test_eval\n    lm = build_lm('en', 3, True)\n         ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/tmp/ipykernel_21456/1407580938.py\", line 12, in build_lm\n    fh = read_lang_file(lang)\n         ^^^^^^^^^^^^^^\nNameError: name 'read_lang_file' is not defined\n",
-  "test_generate": "NameError(\"name 'generate' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 49, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_21456/3349104549.py\", line 34, in test_generate\n    'english_2_gram': generate('en', 2, \"I am\", 20, 5),\n                      ^^^^^^^^\nNameError: name 'generate' is not defined. Did you mean: 'enumerate'?\n"
+  "test_build_lm": {
+    "english_2_gram_length": 747,
+    "english_3_gram_length": 8238,
+    "french_3_gram_length": 8285,
+    "spanish_3_gram_length": 8468
+  },
+  "test_eval": {
+    "en_on_en": 19.6,
+    "en_on_fr": 40.71,
+    "en_on_tl": 48.26,
+    "en_on_nl": 42.52
+  },
+  "test_generate": {
+    "english_2_gram": "ell1Gige omyo & he't",
+    "english_3_gram": "ebompirs ans appree ",
+    "english_4_gram": "r. Zo Are froming #M",
+    "spanish_2_gram": " ' Dusos qups  en ce",
+    "spanish_3_gram": " ensanta oto el 200 ",
+    "french_2_gram": " jeitpu s a male s:/",
+    "french_3_gram": "treil Her lon in vs "
+  }
 }

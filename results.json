@@ -1,19 +1,21 @@
 {
-  "test_link": "NameError(\"name 'NOTEBOOK_LINK' is not defined\")\nTraceback (most recent call last):\n  File \"/tmp/ipykernel_88706/2957777135.py\", line 48, in <cell line: 0>\n    cur_res = test()\n              ^^^^^^\n  File \"/tmp/ipykernel_88706/2957777135.py\", line 6, in test_link\n    'link': NOTEBOOK_LINK\n            ^^^^^^^^^^^^^\nNameError: name 'NOTEBOOK_LINK' is not defined\n",
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1ZYcYcq_FFCiZe9kCHRVP5VAUKb5mNUID?usp=sharing"
+  },
   "test_preprocess": {
     "vocab_length": 1804
   },
   "test_build_lm": {
-    "english_2_gram_length": 747,
-    "english_3_gram_length": 8238,
-    "french_3_gram_length": 8285,
-    "spanish_3_gram_length": 8468
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8473,
+    "french_3_gram_length": 8505,
+    "spanish_3_gram_length": 8744
   },
   "test_eval": {
     "en_on_en": 19.6,
-    "en_on_fr": 40.71,
-    "en_on_tl": 48.26,
-    "en_on_nl": 42.52
+    "en_on_fr": 40.72,
+    "en_on_tl": 48.3,
+    "en_on_nl": 42.61
   },
   "test_generate": {
     "english_2_gram": "ell1Gige omyo & he't",

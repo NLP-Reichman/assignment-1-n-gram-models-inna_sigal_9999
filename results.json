@@ -12,10 +12,10 @@
     "spanish_3_gram_length": 8469
   },
   "test_eval": {
-    "en_on_en": 19.6,
-    "en_on_fr": 40.71,
-    "en_on_tl": 48.26,
-    "en_on_nl": 42.52
+    "en_on_en": 28.64,
+    "en_on_fr": 58.59,
+    "en_on_tl": 73.55,
+    "en_on_nl": 63.2
   },
   "test_generate": {
     "english_2_gram": "I amell1Gige omyo & he't",
